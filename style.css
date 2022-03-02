@@ -1,0 +1,204 @@
+body{
+    font-family: shinryu, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+h2{
+    font-size: 48px;
+    margin: 0;
+}
+p{
+    font-size: 30px;
+    line-height: 60px;
+}
+.logo{
+    width: 60px;
+}
+.mainvisual .logos{
+    font-size: 36px;
+}
+.mainvisual .logor{
+    font-size: 60px;
+}
+.logos,.logor{
+    margin-top: 20px;
+}
+.mainvisual{
+    width: 100%;
+    writing-mode: vertical-rl;
+    margin-left: auto;
+    position: relative;
+    height: 800px;
+    background-image: url(img/mainvisual.png);
+    background-position: center;
+}
+.mainvisual h1{
+    margin: 60px;
+}
+.whitebox{
+    height: 800px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.5)
+}
+.copy{
+    margin: 0 auto;
+    font-size: 90px;
+}
+.mainvisual ul{
+    margin: 0 auto 0 60px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-size: 30px;
+    padding: 0;
+}
+.mainvisual li{
+    line-height: 80px;
+}
+.snslogo{
+    width: 28px;
+}
+.snslogo:not(:last-child) {
+    margin-bottom: 40px;
+}
+.sns{
+    width: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 60px 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decoration{
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(50px, -50%);
+}
+
+
+
+
+
+.about{
+    writing-mode: vertical-rl;
+    width: 100%;
+    margin-top: 170px;
+    position: relative;
+}
+.about h2{
+    margin-right: 200px;
+}
+
+.aboutimg{
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+
+.commitment{
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+}
+.commitmenttxt{
+    writing-mode: vertical-rl;
+    margin: 60px 0 0 auto;
+}
+.commitment h2{
+    margin-right: 200px;
+}
+.commitment p{
+    margin: 0 auto;
+}
+.commitmentimg1{
+    width: 100%;
+}
+.commitmentimg2{
+    width: 20%;
+    position: absolute;
+    left: 0;
+    transform: translate(0, -100%);
+}
+.commitmentimg3{
+    width: 20%;
+    position: absolute;
+    left: 0;
+}
+.postscript{
+    margin: 120px 60px 0;
+    text-align: center;
+}
+.postscript ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.postscript li{
+    text-align: center;
+    margin-top: 30px;
+}
+.postscript li:nth-child(3n-1){
+    margin-top: 120px;
+}
+
+.postscript p{
+    font-size: 30px;
+    margin: 20px 0 0;
+}
+
+.map{
+    margin: 120px auto 0;
+    width: 80%;
+}
+.googlemap{
+    margin-top: 30px;
+}
+.map h2{
+    text-align: center;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+footer .logor{
+    color: #fff;
+    font-size: 60px;
+}
+
+footer .logos{
+    color: #fff;
+    font-size: 36px;
+    margin: auto 0;
+}
+
+footer h1{
+    margin: 0 0 0 60px;
+}
